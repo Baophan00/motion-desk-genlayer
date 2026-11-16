@@ -1,0 +1,18 @@
+{
+  "name": "motion-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motions in prose, structured by one consensus round, voted with delegations, executed after a timelock.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python -m pytest tests/direct -q",
+    "deploy": "node scripts/deploy_studionet.js",
+    "e2e": "node scripts/e2e_studionet.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "genlayer-js": "1.1.8"
+  }
+}
